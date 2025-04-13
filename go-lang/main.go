@@ -10,7 +10,8 @@ import (
 
 func main() {
 	solutionsMap := map[uint]solutions.Solution{
-		80: &solutions.RemoveDuplicateFromSortedArraySolution{},
+		80:  &solutions.RemoveDuplicateFromSortedArraySolution{},
+		189: &solutions.RotateArray{},
 	}
 
 	if len(os.Args) < 2 {
